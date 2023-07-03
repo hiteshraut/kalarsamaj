@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>KMKSS</title>
+  <title>Kshatriya Maratha Kalar Samaj</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -24,6 +24,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -32,38 +33,39 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+ <header id="header" class="fixed-top d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <h1><a href="index.html">Maratha Kalar Sahu Samaj</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto " href="gallery.html">Gallary</a></li>
-          <li><a class="nav-link scrollto" href="news.html">News</a></li>
-          <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="matrimonialRegister.html">Matrimonial Registration</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Legal Help</a></li>
-              <li><a href="#">Business Help</a></li>
-              <li><a href="directory.html">Directory</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-          <li><a class="getstarted scrollto" href="login.html">Log In / Register</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+    <div class="logo">
+      <h1><a href="index.html">क्षत्रिय मरठा कलार समाज</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     </div>
-  </header><!-- End Header -->
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto" href="#">Home</a></li>
+        <li><a class="nav-link scrollto" href="about.html">About</a></li>
+        <li><a class="nav-link scrollto " href="gallery.html">Gallary</a></li>
+        <!-- <li><a class="nav-link" href="news.html">News</a></li> -->
+        <li class="dropdown scrollto active"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="matrimonialRegister.html">Matrimonial Registration</a></li>
+            <li><a href="viewprofile.html">View Personal Profile</a></li>
+            <li><a href="viewProfilePage.html">View All Profiles</a></li>
+            <li><a href="AddMember.html">Add Member Details</a></li>
+            <li><a href="directory.html">Business Directory</a></li>
+          </ul>
+        </li> 
+        <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+        <li><a class="getstarted scrollto" href="login.html">Log In / Register</a></li> 
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+</header>
+<!-- End Header -->
 
 
 
@@ -86,40 +88,97 @@
 
     <section class="inner-page">
         <div class="container">
-            <h3>View Profiles </h3>
-
-            <div class="row MatrimonialViewProfiles mt-5 justify-content-center">
+        
+            <div class="row MatrimonialViewProfiles justify-content-center">
                 <div class="col-10">
 
-
+                  <div class="row mb-3">
+                    <div class="col-md-5 mx-auto">
+                        <label><strong>Search Profile by Name, Phone, City/District, State  </strong></label>
+                        <div class="input-group">
+                            <input class="form-control border-end-0 border rounded-pill" type="search" value="" id="example-search-input">
+                            <span class="input-group-append">
+                                <button class="btn btn-outline-secondary bg-white border-bottom-0 border rounded-pill ms-n5" type="button">
+                                    <i class="fa fa-search"></i> Search
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row mb-5">
+                    <div>
+                      <label><strong>Filters</strong></label>
+                    </div>
+                    <div class="col-md-2 mb-3">
+                      <label for="inputBrideGroom" class="form-label">Bride/Groom<span>*</span></label>
+                      <div class="radioButtonInline">
+                          <div class="form-check">
+                              <input class="form-check-input" type="radio" name="inputBrideGroom" id="inputBride">
+                              <label class="form-check-label" for="inputBride"> 
+                                  Bride
+                              </label>
+                          </div>
+                          <div class="form-check">
+                              <input class="form-check-input" type="radio" name="inputBrideGroom" id="inputGroom" >
+                              <label class="form-check-label" for="inputGroom">
+                                  Groom
+                              </label>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                      <label for="inputMaritalStatus" class="form-label">Marital Status<span>*</span></label>
+                      <div class="radioButtonInline">
+                          <div class="form-check">
+                              <input class="form-check-input" type="radio" name="inputMaritalStatus" id="inputMaritalStatusNeverMarried">
+                              <label class="form-check-label" for="inputMaritalStatusNeverMarried"> 
+                                  Never Married
+                              </label>
+                          </div>
+                          <div class="form-check">
+                              <input class="form-check-input" type="radio" name="inputMaritalStatus" id="inputMaritalStatusDivorcee" >
+                              <label class="form-check-label" for="inputMaritalStatusDivorcee">
+                                  Divorcee
+                              </label>
+                          </div>
+                          <div class="form-check">
+                              <input class="form-check-input" type="radio" name="inputMaritalStatus" id="inputMaritalStatusWidowed" >
+                              <label class="form-check-label" for="inputMaritalStatusWidowed">
+                                  Widowed
+                              </label>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
                     <div class="row">
                         <div class="col-12">
 
                             <div class="row mb-5">
-                                <div class="col-3 Imagelimit">
+                                <div class="col-md-3 col-xs-12 Imagelimit">
                                     <a href="viewprofile.html">
-                                        <img src="assets/img/team/team-3.jpg" class="img-responsive rounded mx-auto d-block" /> 
+                                        <img src="assets/img/team/dummy-image.webp" class="img-responsive rounded mx-auto d-block" /> 
                                         <h5>Name </h5>
                                         <h6>Age</h6>
                                     </a>
                                 </div>
-                                <div class="col-3 Imagelimit">
+                                <div class="col-md-3 col-xs-12 Imagelimit">
                                     <a href="viewprofile.html">
-                                        <img src="assets/img/team/team-3.jpg" class="img-responsive rounded mx-auto d-block" /> 
+                                        <img src="assets/img/team/dummy-image.webp" class="img-responsive rounded mx-auto d-block" /> 
                                         <h5>Name </h5>
                                         <h6>Age</h6>
                                     </a>
                                 </div>
-                                <div class="col-3 Imagelimit">
+                                <div class="col-md-3 col-xs-12 Imagelimit">
                                     <a href="viewprofile.html">
-                                        <img src="assets/img/team/team-3.jpg" class="img-responsive rounded mx-auto d-block" /> 
+                                        <img src="assets/img/team/dummy-image.webp" class="img-responsive rounded mx-auto d-block" /> 
                                         <h5>Name </h5>
                                         <h6>Age</h6>
                                     </a>
                                 </div>
-                                <div class="col-3 Imagelimit">
+                                <div class="col-md-3 col-xs-12 Imagelimit">
                                     <a href="viewprofile.html">
-                                        <img src="assets/img/team/team-3.jpg" class="img-responsive rounded mx-auto d-block" /> 
+                                        <img src="assets/img/team/dummy-image.webp" class="img-responsive rounded mx-auto d-block" /> 
                                         <h5>Name </h5>
                                         <h6>Age</h6>
                                     </a>
@@ -140,29 +199,27 @@
 
   </main><!-- End #main -->
 
-   <!-- ======= Footer ======= -->
-   <footer id="footer">
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-lg-6 text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>KMKSS</strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            Designed by <a href="#">KMKSS Team</a>
+            &copy; Copyright <strong>Kshatriya Maratha Kalar Samaj</strong>. All Rights Reserved
           </div>
         </div>
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#about" class="scrollto">About</a>
+            <a href="index.html" class="scrollto">Home</a>
+            <a href="about.html" class="scrollto">About</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Use</a>
           </nav>
         </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

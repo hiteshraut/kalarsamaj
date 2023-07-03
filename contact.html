@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>KMKSS</title>
+  <title>Kshatriya Maratha Kalar Samaj</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -31,39 +31,41 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-        <h1><a href="index.html">Maratha Kalar Sahu Samaj</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link " href="index.html">Home</a></li>
-          <li><a class="nav-link" href="about.html">About</a></li>
-          <li><a class="nav-link  " href="gallery.html">Gallary</a></li>
-          <li><a class="nav-link " href="news.html">News</a></li>
-          <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="matrimonialRegister.html">Matrimonial Registration</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Legal Help</a></li>
-              <li><a href="#">Business Help</a></li>
-              <li><a href="directory.html">Directory</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link active" href="contact.html">Contact</a></li>
-          <li><a class="getstarted " href="login.html">Log In / Register</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+    <div class="logo">
+      <h1><a href="index.html">क्षत्रिय मरठा कलार समाज</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     </div>
-  </header><!-- End Header -->
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto " href="#">Home</a></li>
+        <li><a class="nav-link scrollto" href="about.html">About</a></li>
+        <li><a class="nav-link scrollto " href="gallery.html">Gallary</a></li>
+        <!-- <li><a class="nav-link" href="news.html">News</a></li> -->
+        <li class="dropdown scrollto"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="matrimonialRegister.html">Matrimonial Registration</a></li>
+            <li><a href="viewprofile.html">View Personal Profile</a></li>
+            <li><a href="viewProfilePage.html">View All Profiles</a></li>
+            <li><a href="AddMember.html">Add Member Details</a></li>
+            <li><a href="directory.html">Business Directory</a></li>
+          </ul>
+        </li> 
+        <li><a class="nav-link scrollto active" href="contact.html">Contact</a></li>
+        <li><a class="getstarted scrollto" href="login.html">Log In / Register</a></li> 
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+</header>
+<!-- End Header -->
+
 
 
   
@@ -79,59 +81,49 @@
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="contact-about">
-              <h3>Kshatriya Maratha Kalar Sahu Samaj, Chhattisgarh </h3>
-              <p></p>
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="info">
+              <h4>Bhilai</h4>
               <div>
                 <i class="ri-map-pin-line"></i>
-                <p>Bhilai </p>
+                <p>C/o Smt. Iti Jagdish Dhuwe,<br/>  
+                Behind Gurudwara, Khursipar, <br/> 
+                Bhilai </p>
               </div>
 
               <div>
                 <i class="ri-mail-send-line"></i>
-                <p>info@kmkss.com</p>
+                <p>marathakalarcg@gmail.com</p>
               </div>
 
               <div>
                 <i class="ri-phone-line"></i>
-                <p>+91 1234 567 789</p>
+                <p>+91 7587366096</p>
               </div>
 
             </div>
           </div>
 
-          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="300">
+            <form action="email.php" method="post" name="contactform" class="php-email-forms">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input class="form-control" maxlength="50" name="first_name" id="first" size="30" type="text" required placeholder="First Name"  />
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input  class="form-control"  maxlength="50" name="last_name"  id="last" size="30" type="text" required  placeholder="Last Name" />
+              </div>          
+              <div class="form-group">
+                <input  class="form-control"  maxlength="30" name="telephone" id="phone" size="30" type="text" required  placeholder="&#215;&#215;&#215;-&#215;&#215;&#215;-&#215;&#215;&#215;&#215;" /></p>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <input  class="form-control"  maxlength="80" name="email" id="emailadr" size="30" type="email"required  placeholder="you@example.com" />
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div class="form-group">
+                <textarea   class="form-control"  cols="25" maxlength="1000" id="msg" name="comments" rows="6" required placeholder="Message" ></textarea></p>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+      
+              <small>* Please fill out all required fields.</small>
+              <div class="text-center"><input type="submit"  value="Send Message"/></div>
             </form>
           </div>
 
@@ -142,29 +134,30 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-lg-6 text-lg-left text-center">
-          <div class="copyright">
-            &copy; Copyright <strong>KMKSS</strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            Designed by <a href="#">KMKSS Team</a>
-          </div>
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+  <div class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-lg-6 text-lg-left text-center">
+        <div class="copyright">
+          &copy; Copyright <strong>Kshatriya Maratha Kalar Samaj</strong>. All Rights Reserved
         </div>
-        <div class="col-lg-6">
-          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#about" class="scrollto">About</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
-          </nav>
-        </div>
+        <!-- <div class="credits">
+          Designed by <a href="#">Hitesh Raut and Team</a>
+        </div> -->
+      </div>
+      <div class="col-lg-6">
+        <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+          <a href="index.html" class="scrollto">Home</a>
+          <a href="about.html" class="scrollto">About</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </nav>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </div>
+</footer>
+<!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
